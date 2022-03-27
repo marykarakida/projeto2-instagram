@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/large-screen.css" />
+    <link rel="stylesheet" href="css/medium-screen.css" />
+    <link rel="stylesheet" href="css/small-screen.css" />
+    <title>Instagram</title>
+</head>
+<body>
+    <div class="barra-topo">
+        <div class="menu">
+            <div>
+                <a href="https://www.instagram.com/"><ion-icon name="logo-instagram"></ion-icon></a>
+                <div class="mobile--hide borda-separadora"></div>
+                <a href="https://www.instagram.com/"><img class="mobile--hide" src="asset/img/logo-nome.png" /></a>
+            </div>
+            <img class="mobile--show" src="asset/img/logo-nome.png" />
+            <input class="mobile--hide" type="search" placeholder="Pesquisar">
+            <div>
+                <ion-icon name="paper-plane-outline"></ion-icon> 
+                <a href="https://www.instagram.com/direct/inbox/"><ion-icon class="mobile--hide" name="compass-outline"></ion-icon></a>
+                <a href="https://www.instagram.com/explore/"><ion-icon class="mobile--hide" name="heart-outline"></ion-icon></a>
+                <a href="https://www.instagram.com/accounts/activity/"><ion-icon class="mobile--hide" name="person-outline"></ion-icon></a>
+            </div>
+        </div>
+    </div>
+    <div class="mobile--show barra-inferior">
+        <div>
+            <ion-icon name="home"></ion-icon>
+            <ion-icon name="search-outline"></ion-icon>
+            <ion-icon name="add-circle-outline"></ion-icon>
+            <ion-icon name="heart-outline"></ion-icon>
+            <ion-icon name="person-outline"></ion-icon>
+        </div>
+    </div>
+    <div class="conteudo">
+        <div class="media">
+            <div class="media__stories">
+                <div class="media__stories__scroll">
+                    <div><img src="asset/img/perfil-tina.png" /><p>tinacapuccinaquarentinaturner</p></div>
+                    <div><img src="asset/img/perfil-irmao-urso.jpg" /><p>kenai_koda_irmao_urso</p></div>
+                    <div><img src="asset/img/perfil-driven-eduation.jpg" /><p>driven.education</p></div>
+                    <div><img src="asset/img/perfil-zeta-division.png" /><p>zetadivision</p></div>
+                    <div><img src="asset/img/perfil-pentagon.png" /><p>cube_ptg</p></div>
+                    <div><img src="asset/img/perfil-responde-ai.png" /><p>respondeai</p></div>
+                    <div><img src="asset/img/perfil-notion.png" /><p>notion</p></div>
+                    <div><img src="asset/img/perfil-freecodecamp.jpg" /><p>freecodecamp</p></div>
+                    <div><img src="asset/img/perfil-travis-japan.png" /><p>travis_japan_official</p></div>
+                    <div><img src="asset/img/perfil-super-junior.png" /><p>superjunior</p></div>
+                    <div><img src="asset/img/perfil-arashi.png" /><p>arashi_5_official</p></div>
+                    <div><img src="asset/img/perfil-sixtones.png" /><p>sixtones_official</p></div>
+                </div>
+                <ion-icon class="mobile--hide media__stories__arrow" name="chevron-forward-circle"></ion-icon>
+            </div>
+            <div class="media__posts">
+                <div class="post">
+                    <div class="post__barra-topo">
+                        <a href="https://www.instagram.com/tinacapuccinaquarentinaturner/"><img src="asset/img/perfil-tina.png" /></a>
+                        <a href="https://www.instagram.com/tinacapuccinaquarentinaturner/"><div class="nome">tinacapuccinaquarentinaturner</div></a>
+                        <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                    </div>
+                    <div class="post__img"><img src="asset/img/post-tina.jpg" /></div>
+                    <div class="post__atalho">
+                        <ion-icon name="heart-outline"></ion-icon>
+                        <ion-icon name="chatbubble-outline"></ion-icon>
+                        <ion-icon name="paper-plane-outline"></ion-icon> 
+                        <ion-icon name="bookmark-outline"></ion-icon>
+                    </div>
+                    <div class="post__descricao">
+                        <div class="comentario">
+                            <p><a class="nome" href="https://www.instagram.com/mary_karakida/">mary_karakida</a> Tina, vc é muito linda! 😍😍<ion-icon class="mobile--hide" name="heart-outline"></ion-icon></p>
+                        </div>
+                        <p>HÁ 1 DIA</p>
+                    </div>
+                    <form action="/action_page.php">
+                        <ion-icon name="happy-outline"></ion-icon>
+                        <input type="text" placeholder="Adicione um comentário"><br><br>
+                        <input type="submit" value="Publicar">
+                    </form>
+                </div>
+                <div class="post">
+                    <div class="post__barra-topo">
+                        <a href="https://www.instagram.com/kenai_koda_irmao_urso/"><img src="asset/img/perfil-irmao-urso.jpg" /></a>
+                        <a href="https://www.instagram.com/kenai_koda_irmao_urso/"><div class="nome">kenai_koda_irmao_urso</div></a>
+                        <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                    </div>
+                    <div class="post__img">
+                        <video controls muted autoplay loop >
+                            <source src="asset/video/video.mp4" type="video/mp4">
+                            <source src="asset/video/video.ogv" type="video/ogg">
+                        </video> 
+                    </div>
+                    <div class="post__atalho">
+                        <ion-icon name="heart-outline"></ion-icon>
+                        <ion-icon name="chatbubble-outline"></ion-icon>
+                        <ion-icon name="paper-plane-outline"></ion-icon> 
+                        <ion-icon name="bookmark-outline"></ion-icon>
+                    </div>
+                    <div class="post__descricao">
+                        <div class="comentario">
+                            <p><a class="nome" href="https://www.instagram.com/mary_karakida/">mary_karakida</a> O pé na estrada eu vou botar, Que já tá na hora de irrrr 🎵<ion-icon class="mobile--hide" name="heart-outline"></ion-icon></p>
+                        </div>
+                        <p>HÁ 1 DIA</p>
+                    </div>
+                    <form action="/action_page.php">
+                        <ion-icon name="happy-outline"></ion-icon>
+                        <input type="text" placeholder="Adicione um comentário"><br><br>
+                        <input type="submit" value="Publicar">
+                    </form>
+                </div>
+                <div class="post">
+                    <div class="post__barra-topo">
+                        <img src="asset/img/perfil-driven-eduation.jpg" />
+                        <div class="nome">driven.education</div>
+                        <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                    </div>
+                    <div class="post__img"><img src="asset/img/post-driven-education.png" /></div>
+                    <div class="post__atalho">
+                        <ion-icon name="heart-outline"></ion-icon>
+                        <ion-icon name="chatbubble-outline"></ion-icon>
+                        <ion-icon name="paper-plane-outline"></ion-icon> 
+                        <ion-icon name="bookmark-outline"></ion-icon>
+                    </div>
+                    <div class="post__descricao">
+                        <p class="curtidas">
+                            <img src="asset/img/perfil-dev.png" /> Curtido por <a class="nome" href="">futurx_dev</a> e <a class="nome" href=""> outras pessoas</a>
+                        </p>
+                        <p class="descricao">
+                            <a class="nome" href="https://www.instagram.com/driven.education/">driven.education</a> É com muito orgulho que damos as boas vindas à Turma 6!<br><br>
+                            São 216 pessoas que mostraram a garra e coragem de ir longe e investir numa carreira que só cresce.<br><br>                         
+                            Admiramos cada um de vocês por terem embarcado na missão de se tornarem os melhores Devs do mercado, liderando inovações e sendo protagonista no seu futuro profissional.<br><br>
+                            Esse é o primeiro passo de um caminho que vai mudar as suas vidas para sempre.<br><br>           
+                            Parabéns por iniciarem a sua carreira em programação!
+                        </p>
+                        <p class="comentario-numero">
+                            Ver todos os 217 comentários
+                        </p>
+                        <div class="comentario">
+                            <p><a class="nome" href="https://www.instagram.com/mary_karakida/">mary_karakida</a> #SouDriven<ion-icon class="mobile--hide" name="heart-outline"></ion-icon></p>
+                            <p><a class="nome" href="">futurx_dev</a> #QueroSerDriven<ion-icon class="mobile--hide" name="heart-outline"></ion-icon></p>
+                        </div>
+                        <p>14 DE MARÇO</p>
+                    </div>
+                    <form action="/action_page.php">
+                        <ion-icon name="happy-outline"></ion-icon>
+                        <input type="text" placeholder="Adicione um comentário"><br><br>
+                        <input type="submit" value="Publicar">
+                    </form>
+                </div>
+                <div class="post">
+                    <div class="post__barra-topo">
+                        <a href="https://www.instagram.com/zetadivision/"><img src="asset/img/perfil-zeta-division.png" /></a>
+                        <a href="https://www.instagram.com/zetadivision/"><div class="nome">zetadivision</div></a>
+                        <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                    </div>
+                    <div class="post__img"><img src="asset/img/post-zeta-division.png" /></div>
+                    <div class="post__atalho">
+                        <ion-icon name="heart-outline"></ion-icon>
+                        <ion-icon name="chatbubble-outline"></ion-icon>
+                        <ion-icon name="paper-plane-outline"></ion-icon> 
+                        <ion-icon name="bookmark-outline"></ion-icon>
+                    </div>
+                    <div class="post__descricao">
+                        <p class="comentario-numero">
+                            Ver todos os 73 comentários
+                        </p>
+                        <div class="comentario">
+                            <p><a class="nome" href="https://www.instagram.com/mary_karakida/">mary_karakida</a> Tsugi no VCT ganbatekudasai!! Fighting~~ <ion-icon class="mobile--hide" name="heart-outline"></ion-icon></p>
+                        </div>
+                        <p>1 DE MARÇO, 2021</p>
+                    </div>
+                    <form action="/action_page.php">
+                        <ion-icon name="happy-outline"></ion-icon>
+                        <input type="text" placeholder="Adicione um comentário"><br><br>
+                        <input type="submit" value="Publicar">
+                    </form>
+                </div>
+                <div class="post">
+                    <div class="post__barra-topo">
+                        <a href="https://www.instagram.com/cube_ptg/"><img src="asset/img/perfil-pentagon.png" /></a>
+                        <a href="https://www.instagram.com/cube_ptg/"><div class="nome">cube_ptg</div></a>
+                        <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                    </div>
+                    <div class="post__img"><img src="asset/img/post-pentagon.png" /></div>
+                    <div class="post__atalho">
+                        <ion-icon name="heart-outline"></ion-icon>
+                        <ion-icon name="chatbubble-outline"></ion-icon>
+                        <ion-icon name="paper-plane-outline"></ion-icon> 
+                        <ion-icon name="bookmark-outline"></ion-icon>
+                    </div>
+                    <div class="post__descricao">
+                        <p class="comentario-numero">
+                            Ver todos os 256 comentários
+                        </p>
+                        <div class="comentario">
+                            <p><a class="nome" href="https://www.instagram.com/mary_karakida/">mary_karakida</a> Talented idols!! <ion-icon class="mobile--hide" name="heart-outline"></ion-icon></p>
+                        </div>
+                        <p>21 DE FEVEREIRO</p>
+                    </div>
+                    <form action="/action_page.php">
+                        <ion-icon name="happy-outline"></ion-icon>
+                        <input type="text" placeholder="Adicione um comentário"><br><br>
+                        <input type="submit" value="Publicar">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="medium-screen--hide sidebar">
+            <div class="sidebar__perfil">
+                <a href="https://www.instagram.com/mary_karakida/"><img src="asset/img/perfil-eu.jpg" /></a>
+                <div><a class="nome" href="https://www.instagram.com/mary_karakida/">mary_karakida</a><p>Mary Youko Karakida</p></div>
+            </div>
+            <div class="sidebar__barra-topo">
+                <p>Sugestões para você</p>
+                <a class="button" href="https://www.instagram.com/explore/people/">Ver tudo</a>
+            </div>
+            <div class="sidebar__sugestao">
+                <a href="https://www.instagram.com/driven.education/"><img src="asset/img/perfil-driven-eduation.jpg" /></a>
+                <div><a class="nome" href="https://www.instagram.com/driven.education/">driven.education</a><p>Segue você</p></div>
+                <a class="button" href="">Seguir</a>
+            </div>
+            <div class="sidebar__sugestao">
+                <a href="https://www.instagram.com/respondeai/"><img src="asset/img/perfil-responde-ai.png" /></a>
+                <div><a class="nome" href="https://www.instagram.com/respondeai/">respondeai</a><p>Segue você</p></div>
+                <a class="button" href="">Seguir</a>
+            </div>
+            <div class="sidebar__sugestao">
+                <a href="https://www.instagram.com/notion/"><img src="asset/img/perfil-notion.png" /></a>
+                <div><a class="nome" href="https://www.instagram.com/notion/">notion</a><p>Segue você</p></div>
+                <a class="button" href="">Seguir</a>
+            </div>
+            <div class="sidebar__sugestao">
+                <a href="https://www.instagram.com/freecodecamp/"><img src="asset/img/perfil-freecodecamp.jpg" /></a>
+                <div><a class="nome" href="https://www.instagram.com/freecodecamp/">freecodecamp</a><p>Segue você</p></div>
+                <a class="button" href="">Seguir</a>
+            </div>
+            <div class="sidebar__sugestao">
+                <a href="https://www.instagram.com/tinacapuccinaquarentinaturner/"><img src="asset/img/perfil-tina.png" /></a>
+                <div><a class="nome" href="https://www.instagram.com/tinacapuccinaquarentinaturner/">tinacapuccinaquarentinaturner</a><p>Novo no Intagram</p></div>
+                <a class="button" href="https://www.instagram.com/tinacapuccinaquarentinaturner/">Seguir</a>
+            </div>
+            <p class="sidebar__servico">
+                <a href="https://about.instagram.com/">Sobre</a> • <a href="https://help.instagram.com/"></a>Ajuda • 
+                <a href="https://about.instagram.com/blog/">Imprensa</a> • <a href="https://developers.facebook.com/docs/instagram">API</a> • 
+                <a href="https://www.instagram.com/about/jobs/">Carreiras</a> • <a href="https://www.instagram.com/legal/privacy/">Privacidade</a> • 
+                <a href="https://www.instagram.com/legal/terms/">Termos</a> • <a href="https://www.instagram.com/explore/locations/">Localizações</a> • 
+                <a href="https://www.instagram.com/directory/profiles/">Contas mais relevantes</a> • <a href="https://www.instagram.com/directory/hashtags/">Hashtags</a> • 
+                <a href="">Idioma</a>
+                <br><br>
+                © 2021 INSTAGRAM DO FACEBOOK
+            </p>
+        </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>

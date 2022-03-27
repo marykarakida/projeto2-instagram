@@ -1,0 +1,15 @@
+@media (max-width : 614px) {
+    .mobile--show {
+        display: flex;
+    }
+    .mobile--hide {
+        display: none;
+    }
+    .conteudo {
+        margin-top: 54px;
+    }
+    .media__stories {
+        background-color: rgba(var(--b3f,250,250,250),1);
+        margin-bottom: 0px;
+    }
+}

@@ -1,0 +1,8 @@
+@media (max-width : 935px) {
+    .medium-screen--hide {
+        display: none;
+    }
+    .conteudo {
+        justify-content: center;
+    }
+}
